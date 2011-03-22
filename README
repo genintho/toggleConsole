@@ -1,0 +1,24 @@
+toggleConsole
+
+@author : Thomas Genin
+@version : 1.0
+@licence : MIT http://www.opensource.org/licenses/mit-license.php
+@copyright (c) <2010> <Thomas Genin>
+
+== Description ==
+toggleConsole is a small script which add // (or remove // depends of your choice ) in front of each line which contain a log message.
+
+== Installation ==
+Just download the file and execute it ( php toggleConsole.php PARAM ).
+
+== Usage ==
+toggleConsoleLog TYPE SOURCE TARGET
+
+- TYPE:
+On => turn on console logging
+Off => turn off console logging
+
+- SOURCE => path to the dir of file
+
+- TARGET => path to the dir where we store the output. If the dir doesn't exist, the programm try to create it
+
